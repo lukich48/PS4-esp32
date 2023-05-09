@@ -67,10 +67,10 @@ public:
   uint8_t L2Value() { return data.analog.button.l2; }
   uint8_t R2Value() { return data.analog.button.r2; }
 
-  int8_t LStickX() { return data.analog.stick.lx; }
-  int8_t LStickY() { return data.analog.stick.ly; }
-  int8_t RStickX() { return data.analog.stick.rx; }
-  int8_t RStickY() { return data.analog.stick.ry; }
+  uint8_t LStickX() { return data.analog.stick.lx; }
+  uint8_t LStickY() { return data.analog.stick.ly; }
+  uint8_t RStickX() { return data.analog.stick.rx; }
+  uint8_t RStickY() { return data.analog.stick.ry; }
 
   uint8_t Battery() { return data.status.battery; }
   bool Charging() { return data.status.charging; }

@@ -1,3 +1,6 @@
+## Changes
+LStick and RStick have range from 0 to 255
+
 # PS4-esp32
 Use a PS4 controller with an ESP32
 
